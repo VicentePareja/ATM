@@ -39,7 +39,7 @@ int main()
         std::cout << "You recieve " << cantidad_billete4 << " bills of $" << billete4 << "\n";
         std::cout << "You recieve " << cantidad_billete5 << " bills of $" << billete5 << "\n";
     }
-    if (initial_money < 1000)
+    else if (initial_money < 1000)
     {
         std::cout << "You cannot withdraw that ammount.\n";
     }
